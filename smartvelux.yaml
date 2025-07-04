@@ -1,0 +1,23 @@
+esphome:
+  name: veluxremote
+
+esp32:
+  board: az-delivery-devkit-v4
+  framework:
+    type: esp-idf
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  - platform: esphome
+    password: ""
+
+# source secrets.yaml file wiht 2 top nodes: wifi_ssid and wifi_password
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
