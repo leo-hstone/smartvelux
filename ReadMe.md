@@ -3,6 +3,8 @@ This is an open source project for converting a Velux 3LI remote into a smart ho
 
 This approach emulates a button press on the remote directly. The regular buttons are still working. The alternative is to get a 150€/$ relay KLF 200.
 
+If you do not want to solder, take a look at this awesome approach with spring contacts by Chris Bue on Thingyverse: https://www.thingiverse.com/thing:6427196
+
 ## 1. Velux 3LI D13
 
 <img src="docs/remote_front.jpg" alt="Velux 3LI D13 Remote" width="300"/>
