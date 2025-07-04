@@ -49,18 +49,21 @@ output:
 button:
   - platform: template
     name: "Auf"
+    icon: mdi:arrow-up-bold-circle
     on_press:
       - output.turn_on: pin_open
       - delay: 300ms
       - output.turn_off: pin_open
   - platform: template
     name: "Stop"
+    icon: mdi:stop-circle
     on_press:
       - output.turn_on: pin_stop
       - delay: 300ms
       - output.turn_off: pin_stop
   - platform: template
     name: "Zu"
+    icon: mdi:arrow-down-bold-circle
     on_press:
       - output.turn_on: pin_close
       - delay: 300ms
