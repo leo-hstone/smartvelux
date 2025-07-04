@@ -1,7 +1,8 @@
-# ESPhome for Velux 3LI D13
-This is an open source project for converting a Velux 3LI remote into a smart home compatible device. The remote is paired over a closed wireless protocol with a Velux roller shutter.
+# ESPhome for Velux 3LI D13 (KLI Series)
 
-This approach emulates a button press on the remote directly. The regular buttons are still working. The alternative is to get a 150€/$ relay KLF 200.
+This is an open source project for converting a Velux remote into a smart home compatible device. The remote is paired over a closed wireless protocol with a Velux roller shutter. The regular way to allow integration into Home Assistant is via the proprietary Velux KLF 200 bridge (150€ /$ even used).
+
+This approach emulates a button press on the remote directly. The regular buttons are still working.
 
 If you do not want to solder, take a look at this awesome approach with spring contacts by Chris Bue on Thingyverse: https://www.thingiverse.com/thing:6427196
 
