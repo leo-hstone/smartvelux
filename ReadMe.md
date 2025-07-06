@@ -42,3 +42,7 @@ The housing consists of 2 3d printed parts. Additional things needed:
 - 4x M3 heat press insert
 - 4x M3 countersunk head screws
 
+<div style="display: flex; gap: 20px;">
+    <img src="docs/finished_front.jpg" alt="Housing Front" width="300"/>
+    <img src="docs/finished_back.jpg" alt="Housing Back" width="300"/>
+</div>
